@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Misakai.Amazon</id>
+    <version>$version$</version>
+    <authors>Misakai Ltd.</authors>
+    <iconUrl>http://s3.amazonaws.com/cdn.misakai.com/www-nuget/aws.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fork of Amazon AWSSDK</description>
+    <copyright>Copyright 2014 Misakai Ltd</copyright>
+    <tags>amazon aws cloud sdk api</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Misakai.Amazon.dll" target="lib" />
+  </files>
+</package>

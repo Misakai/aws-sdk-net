@@ -1,0 +1,22 @@
+version: '{build}'
+
+branches:
+  only:
+    - master
+
+configuration: Release
+
+build:
+  project: AWSSDK_DotNet.Core.sln
+  parallel: true
+  publish_nuget: true
+  publish_nuget_symbols: false
+  verbosity: normal
+
+artifacts:
+  - path: '**\Misakai.Bson*.nupkg'
+  - path: '**\Misakai.Mongo*.nupkg'
+
+nuget:
+  account_feed: true
+  project_feed: true

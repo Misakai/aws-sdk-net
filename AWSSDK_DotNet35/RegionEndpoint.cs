@@ -40,7 +40,7 @@ namespace Amazon
     /// </summary>
     public class RegionEndpoint
     {
-        const string REGIONS_FILE = "AWSSDK.endpoints.xml";
+        const string REGIONS_FILE = "Amazon.endpoints.xml";
 
         const int MAX_DOWNLOAD_RETRIES = 3;
 
